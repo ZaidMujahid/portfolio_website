@@ -17,7 +17,7 @@ const Projects = () => {
             {/* project card */}
             <div className="mx-16 bg-white flex md:flex-row flex-col rounded-xl shadow-2xl mb-6 dark:bg-slate-500">
                 <div>
-                    <Image src="/EHR.png" width={525} height={300} className="md:m-6 md:mt-7 rounded-xl shadow-xl md:w-[550px] w-[400px] mx-auto mt-5 mb-4"/>
+                    <Image src="/EHR.png" width={525} height={300} alt="" className="md:m-6 md:mt-7 rounded-xl shadow-xl md:w-[550px] w-[400px] mx-auto mt-5 mb-4"/>
                 </div>
 
                 <div className="ml-8 md:mt-2">
@@ -42,7 +42,7 @@ const Projects = () => {
             {/* project card */}
             <div className="mx-16 bg-white flex rounded-xl shadow-2xl mb-6 md:flex-row flex-col dark:bg-slate-500">
                 <div>
-                    <Image src="/MedTracker.png" width={520} height={300} className="md:m-6 md:mt-7 rounded-xl shadow-xl md:w-[500px] w-[400px] mx-auto mt-5 mb-4"/>
+                    <Image src="/MedTracker.png" width={520} height={300} alt="" className="md:m-6 md:mt-7 rounded-xl shadow-xl md:w-[500px] w-[400px] mx-auto mt-5 mb-4"/>
                 </div>
 
                 <div className="ml-8 md:mt-2">
@@ -68,7 +68,7 @@ MongoDB.</p>
             {/* project card */}
             <div className="mx-16 bg-white flex rounded-xl shadow-2xl mb-6 md:flex-row flex-col dark:bg-slate-500">
                 <div>
-                    <Image src="/GymPartner.png" width={500} height={300} className="md:m-6 md:mt-7 rounded-xl shadow-xl w-[400px] md:w-[500px] mx-auto mt-5 mb-4"/>
+                    <Image src="/GymPartner.png" width={500} height={300} alt="" className="md:m-6 md:mt-7 rounded-xl shadow-xl w-[400px] md:w-[500px] mx-auto mt-5 mb-4"/>
                 </div>
 
                 <div className="ml-8 md:mt-2">
@@ -79,7 +79,7 @@ features like Pagination.</p>
                     <div className="flex justify-between xl:pt-8 pt-2 mb-4">
                         <div className="flex">
                             <span className="text-2xl p-1 text-sky-500"><DiReact/></span> 
-                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/materialui/materialui-original.svg" className="w-7 p-1 mt-1"/>
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/materialui/materialui-original.svg" alt="" className="w-7 p-1 mt-1"/>
                         </div>
                         <div className="flex mr-2 pr-8">
                             <a href="https://github.com/ZaidMujahid/Gym-website" target="_blank" className="text-2xl p-1"><span><SiGithub/></span></a>
@@ -92,7 +92,7 @@ features like Pagination.</p>
             {/* project card */}
             <div className="mx-16 bg-white flex rounded-xl shadow-2xl mb-6 md:flex-row flex-col dark:bg-slate-500">
                 <div>
-                    <Image src="/ImageToText.png" width={450} height={300} className="md:m-6 md:mt-7 rounded-xl shadow-xl w-[400px] md:w-[450px] mx-auto mt-5 mb-4"/>
+                    <Image src="/ImageToText.png" width={450} height={300} alt="" className="md:m-6 md:mt-7 rounded-xl shadow-xl w-[400px] md:w-[450px] mx-auto mt-5 mb-4"/>
                 </div>
 
                 <div className="ml-8 md:mt-2">
@@ -100,9 +100,9 @@ features like Pagination.</p>
                     <p className="font-medium px-2 pr-4 xl:pr-8">A Python Program that converts handwritten text to editable text. Group Project built using Tesseract OCR, Open CV is used for Image Processing. Text can be converted to many regional languages</p>
                     <div className="flex justify-between xl:pt-8 pt-2 mb-4">
                         <div className="flex">
-                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" className="w-7 p-1 mt-1"/>
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="" className="w-7 p-1 mt-1"/>
            
-                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/opencv/opencv-original.svg" className="w-7 p-1 mt-1"/>
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/opencv/opencv-original.svg" alt="" className="w-7 p-1 mt-1"/>
           
                         </div>
                         <div className="flex mr-2 pr-8">
@@ -116,7 +116,7 @@ features like Pagination.</p>
             {/* project card */}
             <div className="mx-16 bg-white flex rounded-xl shadow-2xl mb-6 md:flex-row flex-col dark:bg-slate-500">
                 <div>
-                    <Image src="/Portfolio.png" width={500} height={300} className="md:m-6 md:mt-7 rounded-xl shadow-xl w-[400px] md:w-[570px] mx-auto mt-5 mb-4"/>
+                    <Image src="/Portfolio.png" width={500} height={300} alt="" className="md:m-6 md:mt-7 rounded-xl shadow-xl w-[400px] md:w-[570px] mx-auto mt-5 mb-4"/>
                 </div>
 
                 <div className="ml-8 md:mt-2">

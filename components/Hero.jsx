@@ -3,13 +3,13 @@ const Hero = () => {
         <div id="home" className="flex md:flex-row flex-col-reverse md:justify-between m-16 bg-white dark:bg-slate-500 dark:shadow-slate-600 rounded-2xl shadow-2xl p-6 mt-32">
             <div className="md:mx-8 justify-center">
                 <div className="flex flex-col justify-center m-8 ml-16">
-                    <p className="text-2xl font-semibold mt-8 ">Hello I'm <span className="text-slate-900 text-5xl font-semibold"><br />Zaid Mujahid</span></p>
-                    <p className="text-xl font-bold pt-4">I'm a <span className="text-slate-900">Web Developer, </span><span className="text-xl text-blue-400">G</span>
+                    <p className="text-2xl font-semibold mt-8 ">Hello I&apos;m <span className="text-slate-900 text-5xl font-semibold"><br />Zaid Mujahid</span></p>
+                    <p className="text-xl font-bold pt-4">I&apos;m a <span className="text-slate-900">Web Developer, </span><span className="text-xl text-blue-400">G</span>
                     <span className="text-xl text-red-400">o</span>
                     <span className="text-xl text-yellow-500">o</span>
                     <span className="text-xl text-blue-400">g</span>
                     <span className="text-xl text-green-400">l</span>
-                    <span className="text-xl text-red-400">e </span> DSC Web Lead, <br className="hidden md:block"/>and a lifelong learner based in India. <br className="hidden md:block"/> When I'm weary of coding I play football.</p>
+                    <span className="text-xl text-red-400">e </span> DSC Web Lead, <br className="hidden md:block"/>and a lifelong learner based in India. <br className="hidden md:block"/> When I&apos;m weary of coding I play football.</p>
                 </div>
                 <div className="m-6 md:mt-16 ml-14">
                     <button className="bg-gradient-to-r from-orange-400 to-yellow-300 dark:bg-gradient-to-r dark:from-slate-800 dark:to-blue-500 rounded-lg p-2 m-2 text-white font-semibold shadow-lg">
