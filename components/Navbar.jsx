@@ -12,12 +12,12 @@ const Navbar = () => {
     const currentTheme = theme === 'system' ? systemTheme : theme;
     return (
         <div className="flex justify-between bg-white dark:bg-slate-500 dark:shadow-slate-700 rounded-b-2xl shadow-2xl fixed top-0 w-full mb-4">
-            <div className="text-3xl font-bold p-2 ml-14 pt-3"> 
+            <div className="text-3xl font-bold p-2 ml-14 pt-3 inline"> 
                 {nav && <button className='md:hidden mr-4 pt-2' onClick={() => setNav(false)}>
                     <GiHamburgerMenu/>
                 </button>}
 
-                {!nav && <button className='md:hidden' onClick={() => setNav(true)}>
+                {!nav && <button className='md:hidden inline' onClick={() => setNav(true)}>
                     <GrFormClose/>
                 </button>}
                 {nav && <a href="#home" className='font-bold text-4xl md:text-3xl'>ZAID</a>}
@@ -31,7 +31,7 @@ const Navbar = () => {
                 {dark && <button onClick={() => setDark(false) || theme == "dark"? setTheme('light'): setTheme("dark")} className="p-2 pr-6 text-xl pt-1.5"><CiLight/></button>}
             </div>}
             {!nav && <div className="flex text-lg font-semibold p-2 flex-col mr-[450px] mt-20">
-                <a href="#home" className='text-3xl font-bold pb-4' onClick={() => setNav(true)}>ZAID</a>
+                {/* <a href="#home" className='text-3xl font-bold pb-4' onClick={() => setNav(true)}>ZAID</a> */}
                 <a href="#home" className="p-2 pr-6" onClick={() => setNav(true)}>Home</a>
                 <a href="#about" className="p-2 pr-6" onClick={() => setNav(true)}>About</a>
                 <a href="#skills" className="p-2 pr-6" onClick={() => setNav(true)}>Skills</a>

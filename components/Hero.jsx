@@ -17,7 +17,7 @@ const Hero = () => {
                     </button>
                     
                     <button className="rounded-lg p-2 m-2 font-semibold dark:bg-white">
-                        <a href="#contact" className="bg-white p-3
+                        <a href="#contact" className="bg-white px-3 py-[6px]
                         bg-clip-text text-transparent bg-gradient-to-r from-orange-500 to-yellow-300 dark:bg-gradient-to-r dark:from-slate-800 dark:to-blue-500 rounded-lg dark:shadow-none shadow-orange-200 shadow-lg">Contact Me</a>
                     </button> 
                 </div>

@@ -6,8 +6,11 @@ export default function Document() {
     <Html lang="en">
       <Head>
       <link href="https://fonts.googleapis.com/css2?family=Alkatra&display=swap" rel="stylesheet"/>
+      {/* <link rel="preconnect" href="https://fonts.googleapis.com"/>
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+      <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet"/> */}
       </Head>
-      <body className="font-aut">
+      <body>
         <Main />
         <NextScript />
       </body>

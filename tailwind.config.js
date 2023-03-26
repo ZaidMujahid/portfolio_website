@@ -11,11 +11,8 @@ module.exports = {
   ],
   darkMode: "class",
   fontFamily: {
-    space: ['Space Mono', 'monospace', 'sans-serif'],
-    deca: ['Lexend Deca', 'Inter', 'sans-serif'],
-    app: ['Homemade Apple', 'cursive'],
-    out: ['Outfit', 'Inter', 'sans-serif'],
-    aut: ['Autour One', 'cursive']
+    aut: ['Autour One', 'cursive'],
+    quick: ['Quicksand', 'sans-serif']
   },
   theme: {
     extend: {},
