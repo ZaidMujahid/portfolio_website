@@ -123,7 +123,7 @@ Implemented responsive design principles to ensure a seamless user experience ac
 
                 <div className="sm:ml-2 ml-4 md:mt-2">
                     <p className="text-2xl lg:text-3xl 2xl:text-4xl font-bold p-2 text-darkBlue">Desktop Widget</p>
-                    <p className="font-medium 2xl:text-[24px] lg:text-xl px-2 pr-4 xl:pr-8 2xl:py-4">Developed an Electron desktop widget that generates inspiring quotes using data from 'Quotes free API'.
+                    <p className="font-medium 2xl:text-[24px] lg:text-xl px-2 pr-4 xl:pr-8 2xl:py-4">Developed an Electron desktop widget that generates inspiring quotes using data from &apos;Quotes free API&apos;.
 Implemented fetching and display functionalities for real-time quote updates, leveraging JavaScript, Electron, and RESTful API integration.</p>
                     <div className="flex justify-between xl:pt-8 pt-2 mb-4">
                         <div className="flex 2xl:mt-[5em]">
