@@ -16,7 +16,7 @@ export default function Home() {
       <Head>
         <title>Zaid Mujahid</title>
       </Head>
-      <div>
+      <div className='font-quick'>
         <Navbar />
         <Hero/>
         <About />

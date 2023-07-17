@@ -10,12 +10,17 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   darkMode: "class",
-  fontFamily: {
-    aut: ['Autour One', 'cursive'],
-    quick: ['Quicksand', 'sans-serif']
-  },
   theme: {
-    extend: {},
+    extend: {
+      colors:{
+        lightBlue: 'rgb(186,196,227)',
+        lightPink: 'rgb(231, 195, 216)',
+        darkBlue: 'hsl(218, 44%, 22%)'
+      },
+      fontFamily: {
+        quick: ['Quicksand', 'sans-serif']
+      },
+    },
   },
   plugins: [],
 }

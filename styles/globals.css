@@ -2,15 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Autour+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Autour+One&display=swap');
+
 body{
   width:fit-content;
-  background-image: linear-gradient(to bottom,rgb(245, 224, 187),rgb(253, 224, 224),rgb(245, 224, 187));
+  background-image: linear-gradient(to right,rgb(186,196,227),rgb(231, 195, 216));
+  /* background-repeat: no-repeat; */
+  padding: 0;
+  margin: 0;
+  background-attachment: fixed;
+  display: grid;
+  place-content: center;
 }
 @layer base {
   body{
-    @apply dark:bg-gradient-to-b from-slate-900 via-blue-900 to-slate-900 font-[Alkatra]
+    @apply dark:bg-gradient-to-b from-slate-900 via-blue-900 to-slate-900
   }
 }
 /* .effect {
