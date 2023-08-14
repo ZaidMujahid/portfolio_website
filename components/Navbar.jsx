@@ -23,8 +23,8 @@ const Navbar = () => {
                 <a href="#about" className="p-2 pr-6">About</a>
                 <a href="#projects" className="p-2 pr-6">Projects</a>
                 <a href="#skills" className="p-2 pr-6">Skills</a>
-                {!dark && <button onClick={() => setDark(true) || theme == "dark"? setTheme('light'): setTheme("dark")} className="p-2 pr-6 text-xl pt-1.5"><MdDarkMode/></button>}
-                {dark && <button onClick={() => setDark(false) || theme == "dark"? setTheme('light'): setTheme("dark")} className="p-2 pr-6 text-xl pt-1.5"><CiLight/></button>}
+                {!dark && <button onClick={() => setDark(true) ? setTheme('dark'): setTheme("light")} className="p-2 pr-6 text-xl pt-1.5"><MdDarkMode/></button>}
+                {dark && <button onClick={() => setDark(false) ? setTheme('light'): setTheme("dark")} className="p-2 pr-6 text-xl pt-1.5"><CiLight/></button>}
             </div>}
             {!nav && <div className="flex text-lg font-semibold p-2 flex-col mr-[550px] mt-2">
                 {/* <a href="#home" className='text-3xl font-bold pb-4' onClick={() => setNav(true)}>ZAID</a> */}
@@ -36,8 +36,8 @@ const Navbar = () => {
             </div>}
             {nav && <div className="flex mr-14">
                 <a href="https://leetcode.com/ZaidMujahid/" target="_blank" className="text-3xl p-2 pt-4 mt-[2px] md:mt-0"><span><img src="/leetcode.png" alt="" /></span></a>
-                {!dark && <button onClick={() => setDark(true) || theme == "dark"? setTheme('light'): setTheme("dark")} className="p-2 pr-6 text-3xl pt-1 md:hidden"><MdDarkMode/></button>}
-                {dark && <button onClick={() => setDark(false) || theme == "dark"? setTheme('light'): setTheme("dark")} className="p-2 pr-6 text-3xl pt-1 md:hidden"><CiLight/></button>}
+                {!dark && <button onClick={() => setDark(true) ? setTheme('dark'): setTheme("light")} className="p-2 pr-6 text-3xl pt-1 md:hidden"><MdDarkMode/></button>}
+                {dark && <button onClick={() => setDark(false) ? setTheme('light'): setTheme("dark")} className="p-2 pr-6 text-3xl pt-1 md:hidden"><CiLight/></button>}
             </div>}
         </div>
     );
