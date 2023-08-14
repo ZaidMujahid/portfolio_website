@@ -36,8 +36,8 @@ const Navbar = () => {
             </div>}
             {nav && <div className="flex mr-14">
                 <a href="https://leetcode.com/ZaidMujahid/" target="_blank" className="text-3xl p-2 pt-4 mt-[2px] md:mt-0"><span><img src="/leetcode.png" alt="" /></span></a>
-                {/* {!dark && <button onClick={() => setDark(true) ? setTheme('dark'): setTheme("light")} className="p-2 pr-6 text-3xl pt-1 md:hidden"><MdDarkMode/></button>}
-                {dark && <button onClick={() => setDark(false) ? setTheme('light'): setTheme("dark")} className="p-2 pr-6 text-3xl pt-1 md:hidden"><CiLight/></button>} */}
+                {!dark && <button onClick={() => setDark(true) ? setTheme('dark'): setTheme("light")} className="p-2 pr-6 text-3xl pt-1 md:hidden"><MdDarkMode/></button>}
+                {dark && <button onClick={() => setDark(false) ? setTheme('light'): setTheme("dark")} className="p-2 pr-6 text-3xl pt-1 md:hidden"><CiLight/></button>}
             </div>}
         </div>
     );
