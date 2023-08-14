@@ -8,7 +8,7 @@ import { useTheme } from "next-themes";
 const Navbar = () => {
     const [nav, setNav] = useState(true);
     const [dark, setDark] = useState(false);
-    const { systemTheme, theme, setTheme } = useTheme();
+    const { theme, setTheme } = useTheme();
     // const currentTheme = theme === 'system' ? systemTheme : theme;
     return (
         <div className="flex justify-between bg-white dark:bg-slate-500 dark:shadow-slate-700 rounded-b-2xl shadow-2xl fixed top-0 w-full mb-4">
@@ -36,8 +36,8 @@ const Navbar = () => {
             </div>}
             {nav && <div className="flex mr-14">
                 <a href="https://leetcode.com/ZaidMujahid/" target="_blank" className="text-3xl p-2 pt-4 mt-[2px] md:mt-0"><span><img src="/leetcode.png" alt="" /></span></a>
-                {!dark && <button onClick={() => setDark(true) ? setTheme('dark'): setTheme("light")} className="p-2 pr-6 text-3xl pt-1 md:hidden"><MdDarkMode/></button>}
-                {dark && <button onClick={() => setDark(false) ? setTheme('light'): setTheme("dark")} className="p-2 pr-6 text-3xl pt-1 md:hidden"><CiLight/></button>}
+                {/* {!dark && <button onClick={() => setDark(true) ? setTheme('dark'): setTheme("light")} className="p-2 pr-6 text-3xl pt-1 md:hidden"><MdDarkMode/></button>}
+                {dark && <button onClick={() => setDark(false) ? setTheme('light'): setTheme("dark")} className="p-2 pr-6 text-3xl pt-1 md:hidden"><CiLight/></button>} */}
             </div>}
         </div>
     );
